@@ -1,0 +1,106 @@
+{
+    "journal": {
+      "nomJournal": "MMA Insider",
+      "phraseAccroche": "Votre source numéro un pour les dernières nouvelles et analyses sur le MMA",
+      "texteAppelAction": "Rejoignez notre newsletter pour ne rien manquer des combats à venir !",
+      "articlePrincipal": {
+        "titre": "Retour sur l'événement UFC 300 : les moments forts et les surprises",
+        "description": "Découvrez les combats épiques, les performances impressionnantes et les retournements de situation de l'UFC 300.",
+        "date": "25 Avril 2024",
+        "theme": "UFC",
+        "image":""
+      },
+      "articles": [
+        {
+          "titre": "Analyse tactique : la stratégie gagnante de Jon Jones contre son dernier adversaire",
+          "date": "20 Avril 2024",
+          "theme": "Analyse",
+          "image":""
+        },
+        {
+          "titre": "Interview exclusive avec la nouvelle sensation du MMA : Ronda Rousey Jr.",
+          "date": "15 Avril 2024",
+          "theme": "Interview",
+          "image":""
+        },
+        {
+          "titre": "Top 10 des knockouts les plus spectaculaires de l'histoire du MMA",
+          "date": "5 Avril 2024",
+          "theme": "Liste",
+          "image":""
+        },
+        {
+          "titre": "Les futures stars du MMA : les combattants à surveiller en 2024",
+          "date": "28 Mars 2024",
+          "theme": "Prospects",
+          "image":""
+        },
+        {
+          "titre": "La montée en puissance des combattantes féminines dans le monde du MMA",
+          "date": "20 Mars 2024",
+          "theme": "Féminin",
+          "image":""
+        }
+      ],
+      "themes": [
+        {
+          "nom": "UFC",
+          "description": "Couverture complète des événements UFC, des combats et des nouvelles sur les combattants."
+        },
+        {
+          "nom": "Analyse",
+          "description": "Analyses détaillées des tactiques, des techniques et des stratégies utilisées dans le MMA."
+        },
+        {
+          "nom": "Interview",
+          "description": "Entretiens exclusifs avec les combattants, les entraîneurs et les personnalités du MMA."
+        },
+        {
+          "nom": "Liste",
+          "description": "Sélections des moments les plus impressionnants et des combats les plus mémorables de l'histoire du MMA."
+        },
+        {
+          "nom": "Prospects",
+          "description": "Découvrez les nouveaux talents et les futures stars du MMA à surveiller."
+        },
+        {
+          "nom": "Féminin",
+          "description": "Mise en lumière des combattantes féminines et de leur impact croissant sur le MMA."
+        }
+      ],
+      "auteurs": [
+        {
+          "prenom": "Mike",
+          "typeExperience": "Expert en MMA",
+          "presentation": "Fort d'une expérience dans les arts martiaux et le journalisme sportif, je vous apporte les dernières actualités et analyses du monde du MMA."
+        },
+        {
+          "prenom": "Laura",
+          "typeExperience": "Journaliste sportive",
+          "presentation": "Je suis passionnée par le MMA et je m'efforce de fournir des reportages précis et des interviews exclusives pour vous tenir informé sur ce sport en constante évolution."
+        },
+        {
+          "prenom": "Chris",
+          "typeExperience": "Commentateur MMA",
+          "presentation": "En tant que commentateur MMA, je vous offre une perspective unique sur les combats, les tactiques et les histoires qui façonnent le monde du MMA."
+        }
+      ]
+    }
+  }
+  Réduire
+  
+  
+  
+  
+  Réagir
+  
+  Répondre
+  
+  
+  
+  
+  
+  
+  
+  
+  
