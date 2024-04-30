@@ -11,19 +11,32 @@ function getData() {
        console.log('Données récupérées du fichier JSON :', data);
        /// ON ECRIT LE CODE ICI ! 
       
+function afficherTitre() {
 let nomjournal = data.journal.nomJournal
 console.log(nomjournal);
 let titleID = document.getElementById("nom-journal");
 console.log(titleID);
 titleID.insertAdjacentHTML("beforeend", nomjournal);
-// tableau themes nav :
-var themes = data.journal.themes
-console.log(themes);
-var themesID = document.getElementById("nom-themes");
-console.log(themesID);
-themesID.insertAdjacentHTML("beforeend", themes);
-//
+}
+afficherTitre()
 
+// tableau themes nav :
+
+function afficherThemes(){
+var themes = data.journal.themes;
+themes.forEach(element => {
+console.log(themes);
+  var themetitre = element.nom;
+  console.log(themetitre);
+  var list = `<li>${themetitre}</li>`
+console.log(list);
+var themesID = document.getElementById("themes");
+console.log(themesID);
+themesID.insertAdjacentHTML("beforeend", list);
+});
+}
+afficherThemes()
+//
 
 
        /// FIN DU CODE
