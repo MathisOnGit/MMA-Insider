@@ -11,8 +11,20 @@ function getData() {
        console.log('Données récupérées du fichier JSON :', data);
        /// ON ECRIT LE CODE ICI ! 
       
+let nomjournal = data.journal.nomJournal
+console.log(nomjournal);
+let titleID = document.getElementById("nom-journal");
+console.log(titleID);
+titleID.insertAdjacentHTML("beforeend", nomjournal);
+// tableau themes nav :
+var themes = data.journal.themes
+console.log(themes);
+var themesID = document.getElementById("nom-themes");
+console.log(themesID);
+themesID.insertAdjacentHTML("beforeend", themes);
+//
 
-      
+
 
        /// FIN DU CODE
      })

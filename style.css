@@ -9,6 +9,7 @@ html, body{
     align-items: center;
     background: red;
  }
+
  .logo{
     display: flex;
     justify-content: start; 
@@ -24,7 +25,6 @@ html, body{
     display: flex;
     margin: 0;
     align-items: center;
-    text-decoration: gold;
     font-size: large;
  }
 
@@ -97,6 +97,13 @@ color: white;
 
 }
 
+.article {
+   display: flex;
+    width: 300px;
+    height: 30%;
+    flex-direction: column;
+    text-align: center;
+}
 
 
 
