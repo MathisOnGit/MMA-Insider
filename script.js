@@ -37,6 +37,11 @@ let themes = data.journal.themes;
 afficherThemes()
 
 function articlePrincipal(){
+  let articleprincipal = data.journal.articlePrincipal
+console.log(articleprincipal);
+let articlePrincipalID = document.getElementById("article-principal")
+console.log(articlePrincipalID);
+
   let titreArticlePrincipal = data.journal.articlePrincipal.titre;
   console.log(titreArticlePrincipal);
   let themeArticlePrincipal = data.journal.articlePrincipal.theme;
@@ -47,7 +52,16 @@ function articlePrincipal(){
   console.log(descriptionArticlePrincipal);
   let imageArticlePrincipal = data.journal.articlePrincipal.image;
   console.log(imageArticlePrincipal);
-}
+  let allArticlePrincipal = `<div >
+  <h1>${titreArticlePrincipal}<h1>
+  <p>${descriptionArticlePrincipal}</p>
+<p>${dateArticlePrincipal}</p>
+<h4>${themeArticlePrincipal}</h4>
+<img src="https://t3.ftcdn.net/jpg/07/20/03/32/360_F_720033293_V7fCuc0v0KQTWmik0ymLV4H35fc29654.jpg" alt="imageArticlePrincipal">
+      </div>`;
+  articlePricipalID.insertAdjacentHTML("beforeend",allArticlePrincipal)
+  }
+
 articlePrincipal()
 
 function LesArticles(){
@@ -62,7 +76,25 @@ function LesArticles(){
   let imageArticle = data.journal.articlePrincipal.image;
   console.log(imageArticle);
 }
-LesArticle()
+LesArticles()
+
+function LesAuteurs(){
+  let auteurs = data.journal.auteurs;
+  console.log(auteurs);
+  let prenomAuteurs = data.jounal.auteurs.prenom;
+  console.log(prenomAuteurs);
+  let typeExperience = data.journal.auteurs.typeExperience;
+  console.log(typeExperience);
+  let presentationAuteurs = data.journal.auteurs.presentation
+  console.log(presentationAuteurs);
+  let afficherLesAuteurs = `<div >
+  <h1>${prenomAuteurs}<h1>
+  <p>${typeExperience}</p>
+<p>${presentationAuteurs}</p>
+<img src="" alt="imageAuteurs">
+      </div>`;
+}
+LesAuteurs()
 
 
        /// FIN DU CODE
