@@ -72,17 +72,20 @@
         {
           "prenom": "Mike",
           "typeExperience": "Expert en MMA",
-          "presentation": "Fort d'une expérience dans les arts martiaux et le journalisme sportif, je vous apporte les dernières actualités et analyses du monde du MMA."
+          "presentation": "Fort d'une expérience dans les arts martiaux et le journalisme sportif, je vous apporte les dernières actualités et analyses du monde du MMA.",
+          "image": "https://img.20mn.fr/ndXag7D0QUybAWd4YYXfKyk/1444x920_files-french-founder-of-the-front-national-fn-far-right-party-jean-marie-le-pen-poses-during-a-photo-session-on-february-2-2022-at-his-home-in-rueil-malmaison-west-of-paris-jean-marie-le-pen-is-placed-under-legal-protection-announced-a-vice-president-of-the-national-rally-french-far-right-party-on-april-3-2024-photo-by-joel-saget-afp"
         },
         {
           "prenom": "Laura",
           "typeExperience": "Journaliste sportive",
-          "presentation": "Je suis passionnée par le MMA et je m'efforce de fournir des reportages précis et des interviews exclusives pour vous tenir informé sur ce sport en constante évolution."
+          "presentation": "Je suis passionnée par le MMA et je m'efforce de fournir des reportages précis et des interviews exclusives pour vous tenir informé sur ce sport en constante évolution.",
+          "image": "https://www.lejdd.fr/lmnr/var/jdd/public/media/image/2022/07/22/14/eric-zemmour-les-coulisses-d-une-mise-sur-orbite-politique.jpg?VersionId=XpV1PM0jCpQMKEoW8eXlrz7RdaRNfrPc"
         },
         {
           "prenom": "Chris",
           "typeExperience": "Commentateur MMA",
-          "presentation": "En tant que commentateur MMA, je vous offre une perspective unique sur les combats, les tactiques et les histoires qui façonnent le monde du MMA."
+          "presentation": "En tant que commentateur MMA, je vous offre une perspective unique sur les combats, les tactiques et les histoires qui façonnent le monde du MMA.",
+          "image": "https://media.charentelibre.fr/5610223/1000x625/cl-59a594517971bbcd213ca87c-ph0.jpg?v=1504079971"
         }
       ]
     }

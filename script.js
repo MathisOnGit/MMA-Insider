@@ -106,16 +106,19 @@ function LesAuteurs(){
   console.log(typeExperience);
   let presentationAuteurs = element.presentation
   console.log(presentationAuteurs);
+  let imageAuteurs = element.image;
+  console.log(imageAuteurs);
   let afficherLesAuteurs = `<div >
   <h1>${prenomAuteurs}<h1>
   <p>${typeExperience}</p>
 <p>${presentationAuteurs}</p>
-<img src="" alt="imageAuteurs">
+<img src="${imageAuteurs}" alt="imageAuteurs">
       </div>`;
       auteursID.insertAdjacentHTML("beforeend",afficherLesAuteurs);
     });
   }
 LesAuteurs()
+
 
 
        /// FIN DU CODE
