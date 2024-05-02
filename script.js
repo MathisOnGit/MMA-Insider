@@ -58,6 +58,7 @@ console.log(articlePrincipalID);
   <p>${descriptionArticlePrincipal}</p>
 <p>${dateArticlePrincipal}</p>
 <h4>${themeArticlePrincipal}</h4>
+<a href="">sdXdq</a>
       </div>`;
   articlePrincipalID.insertAdjacentHTML("beforeend",allArticlePrincipal)
   }
@@ -65,17 +66,33 @@ console.log(articlePrincipalID);
 articlePrincipal()
 
 function LesArticles(){
-  let titreArticle = data.journal.articlePrincipal.titre;
-  console.log(titreArticle);
-  let themeArticle = data.journal.articlePrincipal.theme;
-  console.log(themeArticle);
-  let dateArticle = data.journal.articlePrincipal.date;
-  console.log(dateArticle);
-  let descriptionArticle = data.journal.articlePrincipal.description;
-  console.log(descriptionArticle);
-  let imageArticle = data.journal.articlePrincipal.image;
-  console.log(imageArticle);
-}
+  let articles = data.journal.articles;
+  console.log(articles);
+  articles.forEach(element => {
+    let articlesID = document.getElementById("articles")
+    console.log(articlesID);
+    let titreArticles = element.titre;
+    console.log(titreArticles);
+    let themeArticles = element.theme;
+    console.log(themeArticles);
+    let dateArticles = element.date;
+    console.log(dateArticles);
+    let descriptionArticles = element.description;
+    console.log(descriptionArticles);
+    let imageArticles = element.image;
+    console.log(imageArticles);
+    let allArticles = `<div >
+    <img src="${imageArticles}" alt="imageArticle">
+    <h1>${titreArticles}<h1>
+    <p>${descriptionArticles}</p>
+  <p>${dateArticles}</p>
+  <h4>${themeArticles}</h4>
+  <a href="">sdXdq</a>
+        </div>`;
+    articlesID.insertAdjacentHTML("beforeend",allArticles)
+  });
+  }
+
 LesArticles()
 
 function LesAuteurs(){
