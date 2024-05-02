@@ -53,13 +53,13 @@ console.log(articlePrincipalID);
   let imageArticlePrincipal = data.journal.articlePrincipal.image;
   console.log(imageArticlePrincipal);
   let allArticlePrincipal = `<div >
+  <img src="${imageArticlePrincipal}" alt="imageArticlePrincipal">
   <h1>${titreArticlePrincipal}<h1>
   <p>${descriptionArticlePrincipal}</p>
 <p>${dateArticlePrincipal}</p>
 <h4>${themeArticlePrincipal}</h4>
-<img src="https://t3.ftcdn.net/jpg/07/20/03/32/360_F_720033293_V7fCuc0v0KQTWmik0ymLV4H35fc29654.jpg" alt="imageArticlePrincipal">
       </div>`;
-  articlePricipalID.insertAdjacentHTML("beforeend",allArticlePrincipal)
+  articlePrincipalID.insertAdjacentHTML("beforeend",allArticlePrincipal)
   }
 
 articlePrincipal()
