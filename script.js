@@ -84,7 +84,6 @@ function LesArticles(){
     let allArticles = `<div >
     <img src="${imageArticles}" alt="imageArticle">
     <h1>${titreArticles}<h1>
-    <p>${descriptionArticles}</p>
   <p>${dateArticles}</p>
   <h4>${themeArticles}</h4>
   <a href="">sdXdq</a>
@@ -98,11 +97,14 @@ LesArticles()
 function LesAuteurs(){
   let auteurs = data.journal.auteurs;
   console.log(auteurs);
-  let prenomAuteurs = data.jounal.auteurs.prenom;
+  auteurs.forEach(element => {
+    let auteursID = document.getElementById("notre-equipe");
+    console.log(auteursID);
+  let prenomAuteurs = element.prenom;
   console.log(prenomAuteurs);
-  let typeExperience = data.journal.auteurs.typeExperience;
+  let typeExperience = element.typeExperience;
   console.log(typeExperience);
-  let presentationAuteurs = data.journal.auteurs.presentation
+  let presentationAuteurs = element.presentation
   console.log(presentationAuteurs);
   let afficherLesAuteurs = `<div >
   <h1>${prenomAuteurs}<h1>
@@ -110,7 +112,9 @@ function LesAuteurs(){
 <p>${presentationAuteurs}</p>
 <img src="" alt="imageAuteurs">
       </div>`;
-}
+      auteursID.insertAdjacentHTML("beforeend",afficherLesAuteurs);
+    });
+  }
 LesAuteurs()
 
 
