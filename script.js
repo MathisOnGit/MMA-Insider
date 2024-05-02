@@ -119,7 +119,31 @@ function LesAuteurs(){
   }
 LesAuteurs()
 
+function phraseAccroche(){
+  let phraseAccroche = data.journal.phraseAccroche;
+  console.log(phraseAccroche);
+  let phraseAccrocheID = document.getElementById("phrase-accroche");
+  let afficherPhraseAccroche = `<h1>${phraseAccroche}</h1>`
+  console.log(afficherPhraseAccroche);
+  phraseAccrocheID.insertAdjacentHTML("beforeend",afficherPhraseAccroche);
+}
+phraseAccroche()
 
+function afficherThemesAccroche(){
+  let themes = data.journal.themes;
+   console.log(themes);
+   themes.forEach(element => {
+     let themeTitre = element.nom
+     console.log(themeTitre);
+     let liste = `<li >
+       <a href="#">${themeTitre}</a>
+       </li>`;
+     let themesId = document.getElementById("themesAccroche")
+     console.log(themesId);
+     themesId.insertAdjacentHTML("beforeend",liste )
+   })
+  }
+  afficherThemesAccroche()
 
        /// FIN DU CODE
      })
